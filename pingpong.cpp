@@ -1,3 +1,5 @@
+// Go to last to run
+
 #include "raylib.h"
 
 // Define core entities using structs
@@ -137,3 +139,10 @@ int main() {
     CloseWindow();
     return 0;
 }
+
+
+// RUN CMD
+// -> brew install raylib
+// -> clang++ pingpong.cpp -o pingpong -I/opt/homebrew/include -L/opt/homebrew/lib -lraylib -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo
+// you'll get an executable named "pingpong", finally run the. below
+// -> ./pingpong
